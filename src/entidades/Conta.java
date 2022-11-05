@@ -48,6 +48,10 @@ public class Conta {
         return agencia;
     }
 
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
     public void setAgencia(Agencia agencia) {
         this.agencia = agencia;
     }
@@ -86,6 +90,7 @@ public class Conta {
     public double getSaldo() {
         return saldo;
     }
+    
 
     public double getLimite() {
         return limite;
